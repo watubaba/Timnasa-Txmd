@@ -7,72 +7,72 @@
     "postdeploy": "echo 'Deployment complete!'"
   },
   "env": {
-    "AUTO_READ_STATUS": {
+    "AUTO_READ_STATUS": {on
       "description": "Enable to automatically mark viewed WhatsApp statuses as read (on/off)",
       "value": "on",
       "required": false
     },
-    "AUTO_LIKE": {
+    "AUTO_LIKE": {on
       "description": "Enable to automatically like statuses (on/off)",
       "value": "on",
       "required": false
     },
-    "AUTO_READ_DM": {
+    "AUTO_READ_DM": {on
       "description": "Enable to auto-read private DMs sent to the bot (on/off)",
       "value": "off",
       "required": false
     },
-    "AUTO_DOWNLOAD_STATUS": {
+    "AUTO_DOWNLOAD_STATUS": {of
       "description": "Enable to auto-download viewed statuses in your private chat (on/off)",
       "value": "off",
       "required": false
     },
-    "OWNER_NAME": {
+    "OWNER_NAME": {tim
       "description": "Your name (used for bot credits and messages)",
       "value": "TIMNASA-TXMD",
       "required": false
     },
-    "ANTICALL": {
+    "ANTICALL": {of
       "description": "decline calls to the bot. If on, bot auto-declines  call spammers (on/off)",
       "value": "off",
       "required": false
     },
-    "DM_PRESENCE": {
+    "DM_PRESENCE": {on
       "description": "Bot's presence in DMs (e.g. typing, paused, recording)",
       "value": "paused",
       "required": false
     },
-    "GROUP_PRESENCE": {
+    "GROUP_PRESENCE": {on
       "description": "Bot's presence in groups (e.g. typing, paused, recording)",
       "value": "paused",
       "required": false
     },
-    "MODE": {
+    "MODE": {public 
       "description": "Bot mode: private (only owner) or public (everyone)",
       "value": "private",
       "required": false
     },
-    "PREFIX": {
+    "PREFIX": {.
       "description": "Command prefix(es), separated by commas (e.g. !,.,#)",
       "value": "!",
       "required": false
     },
-    "SESSION": {
+    "SESSION": {eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicUJ6V2t5aXM2YlpWRUZjZlU1cDdZaE1NNk5EdEdqbUE5cGxlWXVVU3ZYaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYUZUWGgvZTR0RU8wTkFCUWdJU09BSHlGVzVjKyt5UjloQ1VNMlR6RlgyTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJnRUVDclNvNkpSVGYwdHlsOGQzZW1VWlRjcFUwWEZZWElBcTV4UjhVRFdrPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJwaXBveWJ1aWZmVExKZzF1eEhvS3lTOVlWUXZDcHFyaHFyZXd1dktQaWpJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVJMnd5YTIwWGgvV0Yyb2ZGamt1Sk1ra1QxYXFqRlNOUEE1NXZVYy9sVWs9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlI4VjMrNEFaaEpkZkluWUc1NTVZaWg3cG1IOUEvVWRsSCtxMUFMQ0oxVzA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaUZ5ZWx4NkRXSDRLaS9wMm1Ec0hRbXlhTnN3MUIyVWUwaTdZYThoOWJsYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSWd3REdrNWI1RnIrMy83UTJ0dWRVdFlDaXBGcGJzT09NeUFsMDk2MkZrST0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkxTQWd1TEg5cDdNMjA5VGV0RU9kUjQrdzJwQlFlQlFiNWcwNUM0eUhFNFZXZWpVTE92WnlsRkg4ZWFsbDB0MlZuaG9QSklvWGZzM3RBTzh1WXFac0NBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTYsImFkdlNlY3JldEtleSI6InVjYm9nMDBXZ0UyeWE1cWpjbUdGS0h2enEzWUt0Vlo3WFlWa0l3WW96UTQ9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IjhCM0lKOExFUXZpc0p2ZVdFbkFuT1EiLCJwaG9uZUlkIjoiZjBkOTk0NGMtMjA1NC00MjQwLTlkZGQtODMxNzgzMWExOGZhIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlhMUlJuQ2pwbkhyY0NSbmlPTU1LNFF4eTdVcz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzaHZYQ3dxM2ppVm5DY283YWVTV25UWE5KTEU9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiVE9YSUNURUMiLCJtZSI6eyJpZCI6IjI1NTYyODc3NzM3NTozM0BzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLhoZXhoLXhoIrhoYPgu4jgoZrgoKLgoJjiuJ3gu4jgoKHhoIrfr+GhgeCgo+CgmOGgiuGgiuCgouCgmOawlOS6oPCdkqLwnZKq8J2Qv/Cdkp/wnZC48J2SqeS6oOawlOCgmOCgouGgiuGgiuGgmOCgo+Ghgd+v4aCK4KCh4LuI4rid4KCY4KCi4KGa4LuI4aGD4aCK4aC14aGVIiwibGlkIjoiMTM1MDM5OTc5Mzk3MzU6MzNAbGlkIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNLN1MvN3NGRUluaHhzSUdHQUlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJSYkp0cVgveFMzc3lwU3FoWDBjeXZwUWQyL28wVi9janF1WGtiNkhicENzPSIsImFjY291bnRTaWduYXR1cmUiOiJqYkRiblpvemlYYTF2RVhDa0Z1ZFVtbmFZSHoxQkZZYTlXWjlGcTVMTHlaRENxWXM4OExCSXlTTURzdEV3clFvRFJldHdYbFFrVS9yMzU2bmhYNW9Edz09IiwiZGV2aWNlU2lnbmF0dXJlIjoic281RHNuU09ybkRzcW13cW84UlhucjFXaVpqK1dGazNiU1lMWEZEZ1l5c2l4QTZISGI0aWlJNTcvR0thd1VwQzJBbklLTGx3NVZwVXU3cnVNWVlqQWc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTU2Mjg3NzczNzU6MzNAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVVd5YmFsLzhVdDdNcVVxb1Y5SE1yNlVIZHY2TkZmM0k2cmw1RytoMjZRciJ9fV0sInBsYXRmb3JtIjoic21iYSIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0JJSUJRPT0ifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzUwMTg0MDg3LCJsYXN0UHJvcEhhc2giOiIyRzRBbXUiLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQVBpRSJ9
       "description": "Paste your WhatsApp session string here (Must start with TIMNASA-TXMD-WA-BOT;;;=> and got from our session generator)",
       "value": "",
       "required": false
     },
-    "OWNER_NUMBER": {
+    "OWNER_NUMBER": {tim
       "description": "Your WhatsApp number in international format (e.g. 255752593977)",
       "value": "",
       "required": true
     },
-    "HEROKU_API_KEY": {
+    "HEROKU_API_KEY": {timnasa xmd
       "description": "Your Heroku account API key (found in account settings)",
       "value": "",
       "required": true
     },
-    "HEROKU_APP_NAME": {
+    "HEROKU_APP_NAME": {timnasa
       "description": "The name of your app on Heroku (must match your dashboard app name)",
       "value": "",
       "required": true
